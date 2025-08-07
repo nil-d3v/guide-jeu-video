@@ -89,13 +89,16 @@ h2::after {
     background: #222;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
     text-align: center;
+    border: 2px solid transparent; /* Pour le surlignement */
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(255, 204, 0, 0.3);
+    border: 2px solid #ffcc00;
 }
 
 .card img {
