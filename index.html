@@ -1,164 +1,128 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <title>Guide du Jeu Vidéo</title>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Guide du Jeu Vidéo</title>
   <link rel="stylesheet" href="css/style.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 
   <header>
-    <nav>
+    <nav class="navbar">
       <a href="#"><i class="fas fa-home"></i></a>
       <a href="#categories">Catégories</a>
       <a href="#plateformes">Plateformes</a>
       <a href="#contact">Contact</a>
     </nav>
-    <h1>🎮 Guide du jeu vidéo non-violent à l'école</h1>
-    <p>Joue à des jeux autorisés à l’école, sélectionnés pour leur qualité et leur accessibilité.</p>
+    <div class="hero">
+      <h1>Guide du Jeu Vidéo</h1>
+      <p>Trouve les meilleurs jeux pour l'école, organisés par catégories et avec un accès direct.</p>
+    </div>
   </header>
 
   <main>
     <section id="categories">
       <h2>Catégories</h2>
-      <ul>
-        <li><a href="pages/jeux-a-2.html">Jeux à 2</a></li>
-        <li><a href="pages/classiques.html">Classiques</a></li>
-        <li><a href="pages/speedrun.html">Speedrun</a></li>
-        <li><a href="pages/io.html">.io</a></li>
-      </ul>
+      <div class="card-grid">
+        <div class="card">
+        <a href="categories/io.html" class="btn">
+          <img src="img/io.jpg" alt=".io">
+          <div class="card-content">
+            <h3>.io</h3>
+            <p>Jeux multijoueurs fun et rapides.</p>
+          </div>
+        </a>
+        <a href="categories/jeux-a-2.html" class="btn">
+          </div>
+            <img src="img/jeux-a-2.jpg" alt="Jeux à 2">
+            <div class="card-content">
+              <h3>Jeux à 2</h3>
+              <p>Jeux coopératifs ou compétitifs à jouer à deux.</p>
+            </div>
+          </div>
+        </a>
+        <a href="categories/plateformer.html" class="btn"></a>
+          <div class="card">
+            <img src="img/plateformer.jpg" alt="Plateformer">
+            <div class="card-content">
+              <h3>Plateformer</h3>
+              <p>Saute, cours et évite les obstacles pour finir les niveaux.</p>
+            </div>
+          </div>
+        </a>
+        <a href="categories/classiques.html" class="btn"></a>
+          <div class="card">
+            <img src="img/classiques.jpg" alt="Classiques">
+            <div class="card-content">
+              <h3>Classiques</h3>
+              <p>Les incontournables intemporels.</p>
+            </div>
+          </div>
+        </a>
+        <a href="categories/concepts-originaux.html" class="btn"></a>
+          <div class="card">
+            <img src="img/concepts-originaux.jpg" alt="Concepts Originaux">
+            <div class="card-content">
+              <h3>Concepts Originaux</h3>
+              <p>Des concepts originaux et amusants à essayer sans hésiter.</p>
+            </div>
+          </div>
+        </a>
+        <a href="categories/speedrun.html" class="btn"></a>
+          <div class="card">
+            <img src="img/speedrun.jpg" alt="Speedrun">
+            <div class="card-content">
+              <h3>Speedrun</h3>
+              <p>Finis ces jeux le plus vite possible !</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </section>
 
     <section id="plateformes">
-      <h2>Plateformes recommandées</h2>
-      <ul>
-        <li><a href="https://monkey2.gg" target="_blank">Monkey2.gg</a></li>
-        <li><a href="https://poki.com" target="_blank">Poki</a></li>
-        <li><a href="https://crazygames.com" target="_blank">CrazyGames</a></li>
-      </ul>
+      <h2>Plateformes de jeux</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="img/monkey2.jpg" alt="Monkey2.gg">
+          <div class="card-content">
+            <h3>Monkey2.gg</h3>
+            <p>Site populaire avec des jeux accessibles à l’école.</p>
+            <a href="https://monkey2.gg" class="btn" target="_blank">Accéder</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/poki.jpg" alt="Poki">
+          <div class="card-content">
+            <h3>Poki</h3>
+            <p>Large sélection de jeux jouables sans inscription.</p>
+            <a href="https://poki.com" class="btn" target="_blank">Accéder</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/crazygames.jpg" alt="CrazyGames">
+          <div class="card-content">
+            <h3>CrazyGames</h3>
+            <p>Autre plateforme de jeux gratuits pour le navigateur.</p>
+            <a href="https://crazygames.com" class="btn" target="_blank">Accéder</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Proposer un jeu</h2>
       <p>Tu peux proposer un jeu via ce formulaire :</p>
-      <a href="https://forms.gle/ton-lien" target="_blank">📝 Remplir le formulaire</a>
+      <a href="https://forms.gle/ton-lien" class="btn" target="_blank">📝 Remplir le formulaire</a>
     </section>
   </main>
 
   <footer>
     <p>© 2025 - Guide du jeu vidéo à l’école</p>
-    <p><a href="https://github.com/tonpseudo/mon-jeu-ecole">Voir sur GitHub</a></p>
+    <p><a href="https://github.com/tonpseudo/mon-jeu-ecole" target="_blank"><i class="fab fa-github"></i> Voir sur GitHub</a></p>
   </footer>
 
 </body>
 </html>
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
