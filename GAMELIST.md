@@ -1,11 +1,11 @@
 - Drive Mad
 - Iron Snout
-- Level Devil
 - There Is No Game
 - Baba is you
 - Big Tower Tiny Square (1, 2 & Neon)
 - Dadish (1, 2 & 3)
 - Achievement Unlocked (1, 2 & 3)
+- This is the Only Level (1 & 2)
 - Opposite Day (1 & 2)
 - Rumble Rush
 - paper.io
@@ -16,10 +16,15 @@
 - Subway Surfers
 - Moto X3M (Normal, Pool Party, Winter & Spooky Land)
 - Red Ball (collection complète)
-
+- Doodle Jump
+- Geometry Dash (Lite)
+- Henry Stickmin (0, 1, 2, 3 & 4)
+- Super Mario Bros
+- OvO (1 & 2)
 
 A 2 joueur :
 - GoBattle (1 & 2)
 - Temple of Boom
 - Battle Wheels
-- 
+- Fireboy and Watergirl (collection complète)
+- Level Devil

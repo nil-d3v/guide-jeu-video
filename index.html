@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <script type="text/javascript" src="js/camouflage-mode.js" defer></script>
 </head>
 <body>
 
@@ -14,6 +15,8 @@
       <a href="#"><i class="fas fa-home"></i></a>
       <a href="#categories">Catégories</a>
       <a href="#plateformes">Plateformes</a>
+      <a href="#adblock">AdBlock</a>
+      <a href="#camouflage">Camouflage</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="hero">
@@ -79,11 +82,11 @@
     </section>
     
     <section id="plateformes">
-      <h2>Plateformes de jeux</h2>
+      <h2>Plateformes de Jeux</h2>
       <div class="card-grid">
     
         <a href="https://monkeygg2.github.io" class="card" target="_blank">
-          <img src="img/monkey2.png" alt="Monkey2.gg">
+          <img src="img/monkeygg2.png" alt="Monkey2.gg">
           <div class="card-content">
             <h3>Monkey2.gg</h3>
             <p>Plus de 150 jeux classiques... ou pas.</p>
@@ -98,7 +101,7 @@
           </div>
         </a>
     
-        <a href="" class="card" target="_blank">
+        <a href="#plateformes" class="card">
           <img src="img/globe.png" alt="Sites Officiels">
           <div class="card-content">
             <h3>Sites Officiels</h3>
@@ -108,11 +111,37 @@
     
       </div>
     </section>
+
+    <section id="adblock">
+      <h2>AdBlock</h2>
+      <p>Pour profiter des jeux vidéos en ligne sans publicité, installe <strong>uBlock Origin</strong>.</p>
+      <div class="btn-group">
+        <a href="https://addons.mozilla.org/firefox/addon/ublock-origin/" target="_blank" class="btn">
+          <i class="fab fa-firefox-browser"></i> Installer sur Firefox
+        </a>
+        <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank" class="btn">
+          <i class="fab fa-chrome"></i> Installer sur Chrome
+        </a>
+      </div>
+      <p class="note">
+        Tu as un autre navigateur ?  
+        L'extension Chrome fonctionne aussi sur Microsoft Edge, Opera, Samsung Internet et Brave.
+      </p>
+    </section>
+
+    <section id="camouflage">
+      <h2>Mode Camouflage</h2>
+      <p>Le Mode Camouflage vous permet de faire ressembler cette page au site EcoleDirecte.</p>
+      <label class="switch">
+        <input type="checkbox" id="camouflageToggle">
+        <span class="slider"></span>
+      </label>
+    </section>
     
 
     <section id="contact">
-      <h2>Proposer un jeu</h2>
-      <p>Tu peux proposer un jeu via ce formulaire.</p>
+      <h2>Proposer un jeu ou Signaler un bug</h2>
+      <p>Tu peux proposer un jeu ou signaler une erreur ou un bug via ce formulaire rapide.</p>
       <a href="https://forms.gle/ton-lien" class="btn" target="_blank">Remplir le formulaire</a>
     </section>
   </main>

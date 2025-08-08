@@ -64,6 +64,41 @@ header p {
     color: #ccc;
 }
 
+.note {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #007BFF; /* bleu par défaut */
+    color: white;
+    text-decoration: none; /* pas de soulignement */
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.btn i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* bleu plus foncé au survol */
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px; /* espace entre les boutons */
+    justify-content: center;
+    margin-top: 16px;
+}
+
 /* Sections générales */
 section {
     padding: 3rem 2rem;
@@ -146,8 +181,68 @@ img.globe {
     height: 100%;
     object-fit: contain;
     background-color: black;
-  }
-  
+}
+
+/* Section AdBlock */
+#adblock {
+    display: flex;
+    flex-direction: column; /* empile texte et bouton */
+    align-items: center; /* centre horizontalement */
+}  
+
+/* Section Mode Camouflage */
+#camouflage {
+    display: flex;
+    flex-direction: column; /* empile texte et bouton */
+    align-items: center; /* centre horizontalement */
+}  
+
+.switch {
+    margin-top: 16px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #a600ff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
 
 /* Section Contact */
 #contact {
