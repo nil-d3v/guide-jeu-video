@@ -2,6 +2,8 @@
 - Iron Snout
 - Level Devil
 - There Is No Game
+- Baba is you
+- Big Tower Tiny Square (1, 2 & Neon)
 - Dadish (1, 2 & 3)
 - Achievement Unlocked (1, 2 & 3)
 - Opposite Day (1 & 2)

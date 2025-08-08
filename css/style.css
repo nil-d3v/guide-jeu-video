@@ -6,12 +6,22 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Fond avec dégradé / image de montagnes néon (exemple) */
+/* Défilement doux */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fond avec image de montagnes néon*/
 body {
-    background: linear-gradient(to bottom, #1b1b2f, #162447);
     color: white;
     line-height: 1.6;
     padding-top: 80px; /* pour compenser la navbar flottante */
+    background-image: url("img/background/accueil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
 }
 
 /* Navbar flottante et espacée */
@@ -107,6 +117,15 @@ h2::after {
     object-fit: cover;
 }
 
+.card a {
+    text-decoration: none;
+    color: inherit; /* garde la couleur normale du texte */
+}
+
+.card a:hover {
+    text-decoration: none; /* évite le soulignage au survol */
+}
+
 .card-content {
     padding: 1rem;
 }
@@ -122,7 +141,11 @@ h2::after {
     color: #ccc;
 }
 
-/* Lien bouton formulaire */
+/* Section Contact */
+#contact {
+    text-align: center;
+}
+
 #contact a {
     display: inline-block;
     background: #ffcc00;
@@ -133,10 +156,6 @@ h2::after {
     text-decoration: none;
     margin-top: 1rem;
     transition: background 0.3s ease;
-}
-
-#contact a:hover {
-    background: #e6b800;
 }
 
 /* Footer stylé */
