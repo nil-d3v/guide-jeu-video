@@ -117,12 +117,12 @@ h2::after {
     object-fit: cover;
 }
 
-.card a {
+a.card {
     text-decoration: none;
     color: inherit; /* garde la couleur normale du texte */
 }
 
-.card a:hover {
+a.card:hover {
     text-decoration: none; /* évite le soulignage au survol */
 }
 
@@ -141,10 +141,20 @@ h2::after {
     color: #ccc;
 }
 
+img.globe {
+    width: auto; /* conserve les proportions */
+    height: 100%;
+    object-fit: contain;
+    background-color: black;
+  }
+  
+
 /* Section Contact */
 #contact {
-    text-align: center;
-}
+    display: flex;
+    flex-direction: column; /* empile texte et bouton */
+    align-items: center; /* centre horizontalement */
+}  
 
 #contact a {
     display: inline-block;
