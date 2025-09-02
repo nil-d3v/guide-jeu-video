@@ -69,7 +69,7 @@ nav a:hover {
 
 header {
     text-align: center;
-    padding: 2rem 1rem 3rem 1rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
 }
 
 header h1 {
@@ -282,6 +282,53 @@ footer a {
 
 .carousel .next {
     right: 10px;
+}
+
+/* === Collection === */
+
+.collection {
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.collection-cards-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.collection-card {
+    width: 180px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.collection-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.collection-card .card-title {
+    padding: 0.6rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    background: rgba(0,0,0,0.4);
+    word-wrap: break-word;
+}
+
+.collection-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(255,204,0,0.3);
+    border: 2px solid #ffcc00;
 }
 
 /* === Cards === */
