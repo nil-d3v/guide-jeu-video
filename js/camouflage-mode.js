@@ -15,10 +15,10 @@ function setFavicon(url) {
 function applyCamouflage(enabled) {
     if (enabled) {
         document.title = "EcoleDirecte";
-        setFavicon("/img/favicon/ecoledirecte.ico");
+        setFavicon("/guide-jeu-video/img/favicon/ecoledirecte.ico");
     } else {
         document.title = originalTitle;
-        setFavicon("/img/favicon/favicon.ico");
+        setFavicon("/guide-jeu-video/img/favicon/favicon.ico");
     }
 }
 
